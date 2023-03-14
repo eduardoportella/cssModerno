@@ -1,0 +1,39 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 100px;
+   padding: 0 40px;
+}
+
+#rock {
+   width: 70px;
+   /* padding-left: 50px; */
+}
+
+#logo {
+   width: 200px;
+}
+
+button {
+   background-color: black;
+   padding: 13px;
+   border-radius: 10px;
+   border: 1px solid white;
+   color: white;
+   font-size: 25px;
+   margin: 5px;
+   cursor: pointer;
+}
+
+button:hover {
+   border-color: red;
+   transition: 0.3s;
+}
