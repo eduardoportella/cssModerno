@@ -8,6 +8,12 @@
    background-color: antiquewhite;
    font-family: Arial, Helvetica, sans-serif;
    min-height: 100vh;
+   display: grid;
+   /* grid-template-columns: 25vw 50vw 25vw; */
+   /* '-> grid-template-columns: 1fr 2fr 1fr; */
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px 15px;
+   grid-auto-rows: minmax(300px, 100%);
 }
 
 .item {
